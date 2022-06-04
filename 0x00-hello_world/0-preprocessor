@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -E -o c
+chmod u+x,o+x,g+r hello
