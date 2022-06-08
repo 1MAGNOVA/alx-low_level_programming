@@ -1,13 +1,14 @@
 #include <stdio.h>
-
+#include <main.h>
 /**
- *  uses put method to print "programming is like building ..."
+ *  * main - Entry point
+ *   * 	 *
+ *   * Return: Always 0 (Success)
  *   */
 
 int main(void)  
 {   
-	puts("\"Programming is like building a multilingual puzzle"):
-
-                    returns(0);
+	puts("\"Programming is like building a multilingual puzzle");
+		returns(0);
 
 }
