@@ -4,9 +4,9 @@
  *Return: Always 0 (Success)
  */
 int main(void)
-{	int a;
-		long int b;
-			long long int c;
+{	int char a;
+		long int char b;
+			long long int char c;
 				char d;
 					float c;
 	printf("Size of a char: %ld byte(s)\n", sizeof(char));
