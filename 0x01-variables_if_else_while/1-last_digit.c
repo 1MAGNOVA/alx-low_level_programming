@@ -6,8 +6,8 @@
  *main - main block
  * Description: Get a random number and check its last digit, compare it with 5
  * Return: Always 0 Success
- *    
  */
+
 int main(void)
 {	int n;
 	int last;
