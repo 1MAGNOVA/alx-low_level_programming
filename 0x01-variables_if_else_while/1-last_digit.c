@@ -9,7 +9,7 @@
 
 int main(void)
 {
-		int n;
+		int (n);
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
@@ -23,8 +23,7 @@ int main(void)
 		{
 			printf("and is 0,\n", n);
 		}
-		if (n < 6)
-		&&(n != 0)
+		if (n < 6 && n != 0)
 		{
 			printf("amd is less than 6 and not zero", n);
 		}
