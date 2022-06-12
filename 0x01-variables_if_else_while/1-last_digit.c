@@ -1,32 +1,27 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
+#include <stdlib.h>
 
 /**
- * main - stores value of n everytime and
- * prints values of last digit
+ *main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
  * Return: Always 0 Success
+ *    
  */
-
 int main(void)
 {
-		int (n);
+		int n;
+		int last;
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
+		last = n % 10;
 
-		printf("Last digit of %d is %d \n");
-		if (n > 5)
-		{
-			printf("and is greater than 5\n ", n);
-		}
-		if (n == 0)
-		{
-			printf("and is 0\n", n);
-		}
-		if (n < 6 && n != 0)
-		{
-			printf("amd is less than 6 and not zero", n);
-		}
-					return (0);
+		if (last > 5)
+			printf("Last digit of %i is %i and is greater than 5\n", n, last);
+		else if (last == 0)
+			printf("Last digit of %i is %i and is 0\n", n, last);
+		else if (last < 6)
+			printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last);
+				return (0);
 }
