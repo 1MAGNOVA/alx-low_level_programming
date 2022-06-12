@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include <string.h>
 
 
 /**
@@ -11,8 +11,8 @@
 
 int main(void)
 {
-	int x = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int lower_x = tolower(x);
+	char x = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char lower_x = tolower(x);
 
 	putchar(lower_x);
 		return (0);
