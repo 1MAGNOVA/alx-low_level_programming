@@ -6,15 +6,17 @@
 /**
  * main - prints alphabets in lowercase
  *
- * Return: Always 0Success
+ * Return: Always 0 Success
  */
 
 int main(void)
-{	char Ch = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-	if (isalpha(Ch))
-	{	Ch = tolower(Ch)
-		putchar(Ch);
+{	char c = 'a';
+	
+	while (c <= 'z')
+	{	
+		putchar(c);	
+		c++	
 	}
+	putchar('\n');
 		return (0);
 }
