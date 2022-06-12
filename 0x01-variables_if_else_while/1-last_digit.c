@@ -5,6 +5,7 @@
 /**
  * main - stores value of n everytime and
  * prints values of last digit
+ * Return: Always 0 Success
  */
 
 int main(void)
@@ -14,14 +15,14 @@ int main(void)
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
 
-		printf("Last digit of (%d) is" n, "\n");
+		printf("Last digit of %d is %d \n");
 		if (n > 5)
 		{
-			printf("and is greater than 5 \n ", n);
+			printf("and is greater than 5\n ", n);
 		}
 		if (n == 0)
 		{
-			printf("and is 0,\n", n);
+			printf("and is 0\n", n);
 		}
 		if (n < 6 && n != 0)
 		{
