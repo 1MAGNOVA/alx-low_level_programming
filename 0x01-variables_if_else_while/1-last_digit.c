@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
- *main - stores value of n everytime and
+/**
+ * main - stores value of n everytime and
  * prints values of last digit
  */
 
@@ -13,6 +13,7 @@ int main(void)
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
+
 		printf("Last digit of %d is %d \n");
 		if (n > 5)
 		{
