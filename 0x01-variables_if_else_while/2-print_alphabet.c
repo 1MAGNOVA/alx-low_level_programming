@@ -10,10 +10,11 @@
  */
 
 int main(void)
-{
-	char x = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char lower_x = tolower(x);
+{	char Ch = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	putchar(lower_x);
+	if (isalpha(Ch))
+	{	Ch = tolower(Ch)
+		putchar(Ch);
+	}
 		return (0);
 }
