@@ -1,5 +1,5 @@
-#ifdef HOLBERTON_H_INCLUDED
-#define HOLBERTON_H_INCLUDED
+#ifdef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
 
 
 
@@ -19,4 +19,4 @@ void print_to_98(int n);
 void print_times_table(int n);
 void num(int r, int n);
 
-#endif
+#endif /*_MAIN_H_*/
