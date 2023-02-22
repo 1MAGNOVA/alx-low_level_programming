@@ -1,21 +1,18 @@
 #include <stdio.h>
 #include <main.h>
 /**
- * 
- * main - prints _putchar with a new line 
- *returns 0
- *
- *
- **/
+ * main - Prints _putchar with a new line
+ *Return:0(success)
+ */
 int main(void)
 {
-	char c = "putchar";
+	char *c = "_putchar";
 
-	while (c)
+	while (*c)
 	{
-		_putchar(c); sh++;
-	} 
-	_putchar('\n');
-
+	_putchar(*c);
+	c++;
+	}
+	_putchar("\n")
 	return (0);
 }
