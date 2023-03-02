@@ -8,7 +8,8 @@
  *Return: dest
  */
 char *_strmcat(char *dest, char *src, int n)
-{	int i;
+{
+	int i;
 	int j;
 	i = 0;
 	
@@ -16,15 +17,16 @@ char *_strmcat(char *dest, char *src, int n)
 	{
 		i++;
 	}
-	j = 0;
-	
-	while (j < n && src[j] != '\0')
+		j = 0;
+
+		while (j < n && src[j] != '\0')
 	{
 		dest[i] = src[j];
 		i++;
 		j++;
 	}
 	dest[i] = '\0';
+
 	return (dest);
 }
 	
