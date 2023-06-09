@@ -1,1 +1,1 @@
-Task 0x06-pointers_arrays_strings quest 1
+0x06. C - pointersarrays strings
